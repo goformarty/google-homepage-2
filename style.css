@@ -15,3 +15,49 @@ body {
 	display: block;
 	margin: auto;
 }
+
+#search-buttons, #search-bar {
+  text-align: center;
+}
+
+#search-bar {
+	margin-top: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 638px;
+	height: 40px;
+	padding: 6px 9px 0;
+}
+
+#search-bar input {
+	width: 566px;
+}
+
+#search-bar span {
+	background: url(img/mic.png);
+	background-size: 24px 24px;
+	display: inline-block;
+	height: 23px;
+    width: 17px;
+    vertical-align: middle;
+}
+
+#search-buttons input {
+    height: 36px;
+    line-height: 27px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+
