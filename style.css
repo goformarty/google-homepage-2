@@ -21,7 +21,7 @@ body {
 }
 
 #search-bar {
-	margin-top: 20px;
+	margin-top: 20px auto 0;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -31,7 +31,28 @@ body {
 }
 
 #search-bar input {
-	width: 566px;
+	width:570px;
+	height:100%;
+	border:1px solid #DDDDDD;
+	padding: 4px 10px;
+	position:relative;
+	float:left;
+	z-index:10;
+}
+
+.search-mic {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.search-mic img {
+	float:right;
+	height:21px;
+	position:relative;
+	top:8px;
+	right:10px;
+	z-index:11;
 }
 
 #search-bar span {
