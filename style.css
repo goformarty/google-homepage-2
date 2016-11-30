@@ -81,4 +81,38 @@ body {
     text-align: center;
 }
 
+/* footer */
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #f2f2f2;
+	bottom: 0;
+	border-top:1px solid #e4e4e4;
+}
 
+.footer ul {
+	padding: 0;
+}
+.footer-left {
+	display: block;
+	float:left;
+}
+
+.footer-right {
+	display: block;
+	text-align:right;
+}
+
+.footer-left ul li, .footer-right ul li{
+	display:inline-block;
+	padding-bottom:10px;
+	color:#666;
+}
+
+.footer-left ul li{
+	padding-left: 27px;
+}
+.footer-right ul li{
+	padding-right: 27px;
+}
